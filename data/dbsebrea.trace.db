@@ -1,0 +1,9 @@
+2026-09-18 08:55:38.452838-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select * from users [42104-240]
+2026-09-18 08:55:59.634319-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]*"; expected "identifier"; SQL statement:
+select * from * [42001-240]
+2026-09-18 08:56:01.490611-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]*"; expected "identifier"; SQL statement:
+select * from * [42001-240]
